@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const details = [
   { label: 'Full Name', value: 'Gio Anthony Callos' },
-  { label: 'Program', value: 'BS Information Systems' },
+  { label: 'Program', value: 'BS Information Systems, Major in Business Applications Development' },
   { label: 'Year', value: '4th Year' },
   { label: 'Email', value: 'gioanthonycallos@gmail.com' },
 ];
@@ -10,9 +10,10 @@ const details = [
 const skills = [
   { name: 'React.js', level: 90 },
   { name: 'JavaScript', level: 85 },
-  { name: 'Flutter', level: 75 },
+  { name: 'Flutter', level: 80 },
   { name: 'Python', level: 80 },
-  { name: 'TensorFlow / ML', level: 70 },
+  { name: 'HTML / CSS', level: 90 },
+  { name: 'PHP', level: 75 },
   { name: 'Supabase / Firebase', level: 85 },
 ];
 
@@ -36,12 +37,12 @@ function About() {
             className="min-w-0"
           >
             <h3 className="text-accent uppercase text-sm font-semibold tracking-wider mb-4">
-              CREATIVITY MEETS INNOVATION
+              FULL-STACK DEVELOPER
             </h3>
             <p className="text-textMuted leading-relaxed mb-8">
-              I am a passionate full-stack developer with <strong className="text-textLight">3+ years</strong> of experience building web and mobile applications. 
-              I specialize in creating innovative solutions using modern technologies, with a focus on AI/ML integration and user-centered design. 
-              Multiple national award winner committed to continuous learning and excellence.
+              I'm a full-stack developer with <strong className="text-textLight">3+ years</strong> of experience building web and mobile applications. 
+              I focus on writing clean, maintainable code and creating user-friendly interfaces.
+              I'm passionate about continuous learning and solving real-world problems through code.
             </p>
 
             <dl className="details-list grid grid-cols-1 sm:grid-cols-2 gap-4">

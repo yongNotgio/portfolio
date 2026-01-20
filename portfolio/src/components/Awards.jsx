@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
 
 const awards = [
-  { title: 'National Champion - PSC X 2025', org: 'Philippine Statistics Authority', year: '2025' },
-  { title: 'Regional Champion - AI.deas for Impact', org: 'DICT Region VI', year: '2025' },
-  { title: 'Champion - WestNovation 2025', org: 'West Visayas State University', year: '2025' },
-  { title: 'First Runner-Up - National AI Fest', org: 'National AI Initiative', year: '2024' },
+  { title: 'National Champion, Most Disruptive Idea, & Best Business Model', org: 'DICT: Philippine Startup Challenge X, Clark Pampanga', year: 'DEC 2025' },
+  { title: 'Best Research Presentation (Top 5% Paper)', org: '26th International Symposium on Advanced Intelligent Systems, Cheongju South Korea', year: 'NOV 2025' },
+  { title: 'Champion & Most Market-Ready Innovation', org: 'WESTnovation Challenge, West Visayas State University System, La Paz, Iloilo City', year: 'NOV 2025' },
+  { title: 'Champion, Best Pitch, & Most Innovative', org: 'DICT: PSC X Regional, Region VI – Iloilo City', year: 'OCT 2025' },
+  { title: 'Champion & Visionary Innovator', org: 'DICT: AI.DEAS for Impact, Region VI – Bacolod City', year: 'SEP 2025' },
+  { title: '1st Runner-Up', org: 'DOST: National AI Fest – AI Hackathon', year: 'AUG 2025' },
 ];
 
 function Awards() {

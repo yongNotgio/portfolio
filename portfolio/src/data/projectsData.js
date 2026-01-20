@@ -11,9 +11,7 @@ export const projects = [
       '🥇 Champion - WestNovation 2025',
       '🥈 First Runner-Up - National AI Fest 2024',
     ],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/yongNotgio/DiaSight_Deployed',
-    image: '/placeholder-project.jpg',
+    image: '/project1.png',
   },
   {
     id: 2,
@@ -21,10 +19,7 @@ export const projects = [
     category: ['Web Apps', 'AI/ML', 'Mobile'],
     tags: ['Flutter', 'React', 'Vite', 'AI/ML'],
     description: 'Comprehensive diabetes monitoring with mobile app and web portals',
-    label: 'Thesis Project',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/yongNotgio/diatrack1',
-    image: '/placeholder-project.jpg',
+    image: '/project2.png',
   },
   {
     id: 3,
@@ -32,9 +27,7 @@ export const projects = [
     category: ['Web Apps'],
     tags: ['React.js', 'Supabase', 'Real-time'],
     description: 'Full-stack social platform for poets with real-time interactions',
-    liveUrl: 'https://unblot.vercel.app',
-    githubUrl: 'https://github.com/yongNotgio/unblot',
-    image: '/placeholder-project.jpg',
+    image: '/project3.png',
   },
   {
     id: 4,
@@ -42,8 +35,6 @@ export const projects = [
     category: ['Mobile'],
     tags: ['Flutter', 'Dart'],
     description: 'Mobile app built with Flutter for Night Walkers.',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/yongNotgio/Night_Walkers_App',
-    image: '/placeholder-project.jpg',
+    image: '/project4.png',
   },
 ];

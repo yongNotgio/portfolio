@@ -45,7 +45,7 @@ function Footer() {
               <FaPhone />
             </div>
             <h3 className="font-semibold text-textLight mb-2">Contact</h3>
-            <p className="text-sm text-textMuted">+63 900 000 0000</p>
+            <p className="text-sm text-textMuted">+63 968 727 3788</p>
           </div>
 
           {/* Location */}

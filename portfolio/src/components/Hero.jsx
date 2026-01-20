@@ -28,7 +28,7 @@ function Hero() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="relative flex flex-col items-center md:items-start"
+          className="relative flex flex-col items-center"
         >
           <div className="glass-panel p-2 mb-6">
             <img
@@ -38,7 +38,7 @@ function Hero() {
               loading="lazy"
             />
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-4 justify-center w-full">
             {socials.map((item) => (
               <a
                 key={item.label}
@@ -52,7 +52,7 @@ function Hero() {
                 target={item.href && item.href.startsWith('mailto:') ? undefined : '_blank'}
                 rel={item.href && item.href.startsWith('mailto:') ? undefined : 'noreferrer'}
                 aria-label={item.label}
-                className="social-icon text-lg"
+                className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center rounded-lg bg-darkCard border border-darkBorder text-textMuted transition-all duration-300 text-xl sm:text-2xl hover:bg-accent hover:text-dark hover:border-accent"
               >
                 {item.icon}
               </a>
@@ -75,8 +75,8 @@ function Hero() {
             <span className="text-accent">—</span> I'm A Full-Stack Developer
           </p>
           <p className="text-sm sm:text-base text-textMuted leading-relaxed mb-8 max-w-lg mx-auto md:mx-0">
-            4th-year Information Systems student passionate about building innovative solutions.
-            Specializing in full-stack web development and AI/ML integration with multiple national awards.
+            4th-year Information Systems student who loves building clean, functional web and mobile applications.
+            Always learning and exploring new technologies to improve my craft.
           </p>
           <div className="flex gap-4 flex-wrap justify-center md:justify-start">
             <a
